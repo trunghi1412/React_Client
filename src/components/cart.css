@@ -1,0 +1,9 @@
+
+
+.shopping-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1000px;
+}

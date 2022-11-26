@@ -9,7 +9,7 @@
 
 
 .page {
-    height: 900px;
+    
     width: 100%;
     display: flex;
     justify-content: center;
@@ -24,12 +24,12 @@
     width: 30%;
     height: 50%;
     position: relative;
-    border-radius: 1em;
-    box-shadow: 0 0.188em 1.550em rgb(190, 123, 123);
+    border-radius: 8px  ;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding: 30px 0px;
 }
 .log-name{
     font-size: 30px;
@@ -37,13 +37,13 @@
 }
 .login-alt {
     width: 80%;
-    height: 3em;
+    height: 20px;
     display: flex;
     justify-content: space-around;
 }
 
 .login-alt div {
-    width: 47.5%;
+    width: 45%;
     height: 90%;
     border-radius: 3px;
     background-color: rgb(73, 92, 18);
@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 
-input {
+.ip-reg {
     height: 64px;
     width: 80%;
     border-radius: 4px;
@@ -63,14 +63,14 @@ input {
     outline: none;
     background-color: white;
     font-size: 22px;
-    text-decoration: none;
+    margin-left: 25px;
 }
 
 
 
-.login-name {
-    width: 40%;
-    height: 3em;
+.login-name-reg {
+    width: 55%;
+    height: 70px;
     background: linear-gradient(135deg, red 0%, blue 100%);
     color: white;
     display: flex;
@@ -81,6 +81,8 @@ input {
     cursor: pointer;
     font-weight: 500;
     font-size: 22px;
+    margin-left: 66px;
+    margin-top: 30px;
 }
 
 .login-name:hover {
@@ -90,21 +92,22 @@ input {
 
 .text {
     position: relative;
-    bottom: -2em;
+    bottom: -8px;
     font-size: 15px;
 
 }
 
 
 
-.sign-up2 {
+.sign-up1 {
     text-decoration: underline;
-    color: rgb(35, 148, 110);  
+    color: rgb(35, 148, 110);
+    margin-left: 10px;  
     
 }
 
-.no-account2 {
+.no-account1 {
     font-size: 15px;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 20px;
 }
