@@ -55,8 +55,12 @@ html {
 }
 
 .home-btn:hover,
-.product-btn:hover {
+.product-btn:hover,
+.intro-btn:hover,
+.blog-btn:hover {
     text-decoration: underline;
+   
+    
 }
 
 .header .navbar a:hover{

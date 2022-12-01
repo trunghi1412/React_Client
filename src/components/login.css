@@ -8,32 +8,23 @@
 }
 
 
-.page {
-    height: 900px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.75em;
-    background: orange;
-    
-}
-
 .cover {
     background-color: white;
     width: 30%;
-    height: 50%;
+    height: 70%;
     position: relative;
     border-radius: 1em;
-    box-shadow: 0 0.188em 1.550em rgb(190, 123, 123);
+    box-shadow: 0 0.188em 1.550em rgb(21, 13, 13);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin-top: 200px;
 }
 .log-name{
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 .login-alt {
     width: 80%;

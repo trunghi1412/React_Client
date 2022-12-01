@@ -4,9 +4,6 @@ import "./header.css"
 import { FaSearch, FaShoppingCart, FaUser} from 'react-icons/fa'
 
 
-
-
-
 const Header = () => {
   
   return (
@@ -16,10 +13,10 @@ const Header = () => {
 
         <nav className="navbar">
         <NavLink to='/homepage' onClick={this} className='home-btn'> Home </NavLink>
-          <a href="#introduction">Introduction</a>
+        <NavLink to='/intro' onClick={this} className='intro-btn'> Introduction </NavLink>
           <NavLink to='/cart' onClick={this} className='product-btn'> Product </NavLink>
-          <a href="#review">Review</a>
-          <a href="#blog">Blog</a>
+          
+          <NavLink to='/blog' onClick={this} className='blog-btn'> Blog </NavLink>
           <a href="contact">Contact</a>
         </nav>
 
@@ -32,7 +29,7 @@ const Header = () => {
         </div>
 
         <form action="" className='search-something'>
-          <input type="search" id='search-box' placeholder='search figure...'/>
+          {/* <input type="search" id='search-box' placeholder='search figure...'/> */}
           
         </form>
         
